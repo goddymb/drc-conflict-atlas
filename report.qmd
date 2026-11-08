@@ -1,0 +1,11 @@
+---
+title: "DRC conflict atlas: first report"
+format: html
+---
+
+This report was rendered with `r R.version.string` on `r Sys.Date()`.
+
+```{r}
+provinces <- data.frame(province = c("North Kivu", "Ituri"), events = c(820, 610))
+provinces
+```
